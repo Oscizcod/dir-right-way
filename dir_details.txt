@@ -1,0 +1,5 @@
+# FORMAT: <dir name>;<ext1>,<ext2>,...
+docs;docx,txt,pdf,rmd,odt,doc,epub
+data;csv,xlsx,json
+images;png,jpeg,jpg,
+code;py,ipynb,ipynb_checkpoints,html
