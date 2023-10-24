@@ -1,3 +1,4 @@
+import sys
 import os
 import re
 
@@ -17,5 +18,11 @@ for file in files:
     # gather all extensions
     exts.add(ext[0].lower())
 
+# make tmp dir
+try:
+    os.mkdir(path + '/tmp')
+except FileExistsError:
+    sys.exit(1)
+    
 print(exts)
     
